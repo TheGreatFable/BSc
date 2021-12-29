@@ -1,0 +1,46 @@
+Module Module1
+    dim myarray(999) as integer
+    sub main()
+        init()
+        lookup()
+    end sub
+    sub init()
+        for i=0 to 999
+            myarray(i)=int(rnd()*10000)
+            console.writeline(myarray(i))
+        next
+    end sub
+    sub lookup()
+        dim myvalue as integer
+        dim location as string
+        myvalue=1
+        while myvalue<>0
+            console.writeline("input a number from the list above or 0 to end")
+            myvalue=console.realline
+            if myvalue<>0 then
+                location=find(myvalue)
+                console.writeline(myvalue & " is found in " & location)
+            end if
+        end while
+        msgbox(":)")
+    end sub
+    function find(avalue as integer) as string
+        dim j as integer
+        dim found as boolean
+        dim location2 as integer
+        j=0
+        found=false
+        while(j<=999) and found = false
+            if myarray(j)=avalue then
+                found =true
+                location2=j
+            end if
+            j=j+1
+        end while
+        if found then
+            return location2
+        else
+            return "another universe, not in here"
+        end if
+    end function
+end module
