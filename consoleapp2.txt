@@ -1,0 +1,65 @@
+module module1
+    dim n as integer
+    dim maxnum as single
+    dim r as single
+    sub main()
+        console.title = "Ali program"
+        console.backgroundcolor = consolecolor.black
+        console.foregroundcolor = consolecolor.green
+        maxnum1()
+        maxnum2()
+        maxnum3()
+        positive()
+    end sub
+    sub maxnum1()
+        console.writeline("hello!")
+        console.writeline("input 2 numbers")
+        maxnum = -9999999
+        for i=1 to 2
+            n= console.readline
+            if n> maxnum then 
+                maxnum =n 
+            end if
+        next
+        msgbox("first maxnum is:")
+        msgbox(maxnum)
+    end sub
+    sub maxnum2()
+        maxnum = -99999999
+        console.writeline("input 3 numbers")
+        for i=1 to 3
+            n= console.readline
+            if n> maxnum then 
+                maxnum =n 
+            end if
+        next
+        msgbox("second maxnum is:")
+        msgbox(maxnum)
+    end sub
+        sub maxnum3()
+        maxnum = -99999999
+        console.writeline("input 4 numbers")
+        for i=1 to 4
+            n= console.readline
+            if n> maxnum then 
+                maxnum =n 
+            end if
+        next
+        msgbox("third maxnum is:")
+        msgbox(maxnum)
+    end sub
+    sub positive()
+        r= 1
+        console.writeline("input a positive number")
+        n= console.readline
+            if n> 0 then 
+                for i=1 to n
+                    r= r* i 
+                next
+                msgbox("the result is:")
+                msgbox(r)
+            else 
+                msgbox("number inputed is negative")
+            end if
+    end sub
+end module

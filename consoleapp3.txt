@@ -1,0 +1,22 @@
+module module1
+    'Ali Yazbek
+    '---
+    'a commercial firm grants a discount for special clients according to the following: "for the first $1000 brackets, a 10% discount; then 20% for the backet above 1000."
+    sub main()
+        dim x as integer
+        x= inputbox("input an amount")
+        console.writeline("the discount is:")
+        console.writeline(disc(x))
+        msgbox(":)")
+    end sub
+    function disc(amount as integer) as single
+        dim discount as integer
+        if amount <= 1000 then
+            discount = amount * 0.1
+        else
+            discount =100 + (amount - 1000) * 0.2
+        end if
+        return discount 
+    end function
+end module
+

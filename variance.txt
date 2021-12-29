@@ -1,0 +1,29 @@
+'ali yazbek
+
+'read a sequence of numbers, the last one being 0 and output the max, the min, the sum, the average and the variance
+
+'..start
+maxnum= -999999
+minnum= (-1)*maxnum
+sumnum= 0
+square= 0
+countnum= 0
+a=int(inputbox("enter a number or 0 to stop"))
+while a <>0
+    if a > max then maxnum = a
+    if a < minnum then minnum = a 
+    sumnum = sumnum +a 
+    square= square + a^2
+    countnum = countnum +1
+    a=int(inputbox("enter a number or 0 to stop"))
+wend
+if countnum >0 then
+    avgvalue = sumnum / countnum
+    variancevalue = square / countnum - avgvalue^2
+    msgbox maxnum
+    msgbox minnum
+    msgbox sumnum
+    msgbox avgvalue
+    msgbox variancevalue
+end if
+'--- end program

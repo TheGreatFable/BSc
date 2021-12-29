@@ -1,0 +1,34 @@
+Module module1
+    'Ali Yazbek
+    '---
+    'write a function which accepts a number and returns the name of the day in english. using a public array of the names filled in the init sub called in the main sub.
+    public day_names(7) as string
+    sub main()
+        init()
+        dim nn as integer
+        for i=1 to 7
+            console.writeline(nameofday(i))
+        next
+        console.writeline("input a number between 1 and 7")
+        nn=console.readline
+        msgbox(nameofday(i))
+    end sub
+    sub init()
+        '---fill the names of days
+        day_names(1)="Monday"
+        day_names(2)="tuesday"
+        day_names(3)="wednesday"
+        day_names(4)="thursday"
+        day_names(5)="friday"
+        day_names(6)="saturday"
+        day_names(7)="sunday"
+        '---
+    end sub
+    function nameofday(num as integer) as string
+        if (num>7)or(num<1) then
+            return ""
+        else
+            return day_names(num)
+        end if
+    end function
+end module

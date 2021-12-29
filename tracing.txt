@@ -1,0 +1,12 @@
+'read a sequence of numbers until 0, then output the largest.
+'start
+maxnum= -999999
+a=1
+while a<>0
+    input a
+    if a> maxnum then
+        maxnum =a
+    endif
+wend
+output maxnum
+end

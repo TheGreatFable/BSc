@@ -1,0 +1,22 @@
+'Ali yazbek
+
+'read a sequence of numbers, thte last one being 0, and output: the maximum, the minimum, the sum and the average.
+
+'..start
+minnum= 999999
+maxnum= -minnum
+sumnum= 0
+countnum= 0
+a= int(inputbox("enter a number or 0 to stop"))
+while a <>0
+    if a > maxnum then maxnum =a
+    if a < minnum then minnum =a
+    sumnum = sumnum +a
+    countnum = countnum +1
+    a=int(inputbox("enter a number, 0 to stop"))
+wend
+avgnum= sumnum / countnum
+msgbox avgnum
+msgbox minnum
+msgbox sumnum
+'--- end program

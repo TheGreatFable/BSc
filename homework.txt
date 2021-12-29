@@ -1,0 +1,26 @@
+ali yazbek
+
+discounts on total amount in invoices are given according to the following rules:
+"clients are divided in two categories(1 and 2)
+category 1 clients receive a discount of 10% on the first portion of $1000 of the amount and 15% on the portion above $1000, while category 2 clients receive only 10% on the portion above 1000$."
+
+pseudocode and flowcart:
+
+'..start
+input amount
+input category
+if category ="1" then
+    if amount>1000 then
+        discount= amount*0.15
+    else
+        discount=amount*0.1
+    endif
+else
+    if amount>1000 then
+        discount= amount*0.1
+    else
+        discount=0
+    endif
+endif
+output discount
+end

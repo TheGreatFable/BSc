@@ -1,0 +1,20 @@
+'input the number of numbers to read and output the smallest, the largest and the sum.
+'..start
+minnum= 999999
+maxnum= -minnum
+sumnum= 0
+input n 'the number of numbers to read
+    for i=1 to n 
+        input a 
+        if a> maxnum then
+            maxnum =a 
+        endif
+        if a< minnum then 
+            minnum= a 
+        endif 
+        sumnum= sumnum +a 
+    next i 
+output minnum 
+output maxnum 
+output sumnum 
+end 
