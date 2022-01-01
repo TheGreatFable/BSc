@@ -1,0 +1,193 @@
+create table student
+(
+    stdid int not null,
+    first_name varchar(50) not null,
+    last_name varchar(50) not null,
+    phone char(8) check(len(phone)=8),
+    dob date,
+    gender char(1) check(gender in ('M','F')),
+    primary key(stdid)
+)
+
+create table course
+(
+    coursecode char(6) not null,
+    name varchar(50) not null,
+    avg integer, credits integer,
+    primary key (coursecode)
+)
+
+create table registration
+(
+    regsep integer,
+    date date,
+    year char(4),
+    term varchar(15),
+    course char(6),
+    stdid integer,
+    primary key (regsep),
+    foreign key(course) references course(coursecode)
+    on update cascade on delete no action,
+    foreign key (stdid) references student (stdid)
+    on update cascade on delete no action,
+)
+
+drop table student
+alter table student
+add nationality char(3)
+
+alter table student
+alter column  nationality char(3) not full
+
+alter table student
+drop column nationality
+
+
+
+
+
+
+
+select fn 
+from student
+where id=1
+
+where fn like ('a%')
+where fn like ('a---')
+where fn like ('a%') and ln like('a%')
+
+where id=1 or id=2
+where id in (1,2)
+
+order by 1 asc
+
+from student inner join reg 
+    on student.id=reg.sid 
+
+where year='2018' and term'fall'
+
+select distinct
+
+from student innerjoin reg on student.id=reg.sid innerjoin course on reg.courseid=course.coursecode
+
+where term='fall' and year='2018' and reg.courseid='mis400'
+
+
+select id,fn,ln,grade+5
+agregation function: sum, avg, count,...
+
+select max(grade),min(grade),count(sid),avg(grade),courseid
+groupby courseid
+having avg(grade)<60
+order by
+
+
+
+
+
+
+
+
+select
+from student
+where id like 's%'
+
+select cid,max(grade)
+from reg
+where id='201800123'
+group by cid
+having max(grade)<60
+order by cid desc
+
+select cid,avg,max(grade)
+from reg innerjoin course on reg.cid=course.cid
+group by cid,avg
+
+
+
+
+
+
+
+select s.sid,fname+''+lname as[firstname]
+from student s innerjoin reg on s.sid=reg.sid innerjoin course on course.cid=reg.cid
+where reg.year='2018' and term='fall'
+
+student that are not registered = left join
+
+select s.std
+from student s leftjoin reg on s.std=reg.sid
+where reg.sid is null
+
+
+select s.sid,fname+''+lname
+from student s 
+where s.sid not in 
+(
+    select reg.sid
+    from reg
+    where term='fall' and year='2018'
+)
+
+
+
+
+
+
+
+
+
+
+select s.sid,fname+''+lname,
+(
+    select avg(grade)
+    from reg
+    where reg.sid=s.sid
+) as [gpa]
+from student s 
+where s.sid is in 
+(
+    select reg.sid
+    from reg
+    where term='fall' and year='2018'
+)
+and s.sid in
+(
+    select reg.sid
+    from reg
+    where year='2018' and term='spring'
+)
+
+
+
+update reg
+set grade=grade+10
+where year='2018' and term='fall' and cid='mis410'
+and reg.sid in (
+    select reg.sid
+    from reg
+    where year='2018' and term='spring' and cid='mis400' and grade='a'
+)
+
+
+
+
+
+
+
+
+
+
+delete from reg
+where sid='201800123'
+
+insert into student (sid,lname,fname)
+values('201800123','a','fr')
+
+values((select max(sid)+1 from student),'a','fr')
+
+alter table student
+
+add nationality char(3) not null
+
+alter database mis410 set offline
