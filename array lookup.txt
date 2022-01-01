@@ -1,0 +1,29 @@
+'given an array of 1000 elements filled by random numbers. search if n entered value is in the array.
+
+module 1
+dim myarray(999) as integer
+sub main()
+init
+lookup
+end sub
+sub init
+for i=0 to 999
+    myarray(i)=int(RND()*1000)
+next i
+end sub
+sub lookup()
+dim myvalue as integer
+myvalue=1
+while myvalue<>0
+    if find(myvalue)
+    console.writeline myvalue & " is found at " & location
+end while
+end sub
+function find(avalue as integer) as boolean
+    dim j as integer
+    dim found as boolean
+while
+...
+end while
+return found
+end function

@@ -1,0 +1,19 @@
+'---bubbleupsort
+dim swaps=1
+while waps>0
+    swaps=0
+    for i=0 to n-1
+        if myarray(i)>myarray(i+1)then
+        swap (myarray(i),myarray(i+1))
+        swaps=swaps+1
+        endif
+    next
+endwhile
+endsub
+
+sub swap(a as integer,b as integer)
+dim ...
+temp=a
+a=b
+b=temp
+endsub

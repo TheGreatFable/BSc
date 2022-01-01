@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>example 2</title>
+        <link rel=stylesheet type="text/css"
+        href="new2.css">
+    </head>
+    <body>
+        <h1>my website</h1>
+        <h2>menu</h2>
+        <ul class="fl">
+            <li>home</li>
+            <li>next</li>
+            <li>previous</li>
+        </ul>
+        <li class="in"> add</li>
+        <li class="in"> multiply</li>
+        <li class="in"> subtract</li>
+    </ul>
+    </body>
+</html>
+
+
+.css
+
+h1{color:red;text-align:center;text-decoration:underline;letter-spacing:20px}
+ul il{font-size:1.5cm}
+.fl{float:left;margin-right:50px;margin-top:0;width:150px}
+ul{border:2px solid black}
+.in{display:inline;margin-right:25px}
+.in:hover{text-decoration:underline;cursor:pointer;color:red}

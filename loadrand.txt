@@ -1,0 +1,22 @@
+lim=cint(txtlim.text)
+for i=0 to lim
+    myarray(i)=rnd()*100000
+next
+sub swap(a as integer,b as integer)
+    dim temp as integer
+    temp=a
+    a=b
+    b=temp
+end sub
+sub printarray()
+    dim ss as string
+    for i=0 to lim
+        console.writeline(myarray(i))
+    next
+    ss=console.readline
+
+sub selection
+...
+
+print
+...

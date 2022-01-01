@@ -1,0 +1,25 @@
+use top: integer, i:integer,myarray(n) as integer, temp as integer
+start
+for top=0 to n-1
+for i=top+1 to n
+if myarray(i)<myarray(top)then
+    temp=myarray(top)
+    myarray(top)=myarray(i)
+    myarray(i)=temp
+end if
+next
+next
+end
+
+
+
+or
+
+
+swap(myarray(i),myarray(top))
+sub swap(a as integer, b as integer)
+dim temp as integer
+temp = a
+a=b
+b=temp
+end sub

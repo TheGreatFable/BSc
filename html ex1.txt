@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>hellokity</title>
+        <meata http-equiv ="refresh" content="5;http://www.uls.edu.lb">
+    </head>
+<body>
+    <h1>sec1</h1>
+    <h2>sec2</h2>
+</body>
+    </html>
+
+<body style="background-color: yellow">
+<h1 style = "color: white"></h1>
+...

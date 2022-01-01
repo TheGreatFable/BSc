@@ -1,0 +1,22 @@
+'---start
+low=1
+high=n
+found=false
+while(not found) and (high>low)
+    mid=(low+high)\2
+    if myarray(mid)=numval then
+        found=true
+        location=mid
+    else
+        if myarray(mid)>numval then
+            high=mid
+            else
+            low=mid
+        endif
+    endif
+endwhile
+if found then
+    output "found at " & location
+else
+    output "not found"
+end if
