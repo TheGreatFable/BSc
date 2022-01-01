@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>hello kity</title>
+        <style>
+            section{width: 800px;height: 800px;border: 1px dashed black;margin:auto;position: absolute;}
+            div{margin-bottom: 4.5%;}
+            #one{width: 33.33%;height: 30.3%;position: relative;background-color: red;transition: transform 45;z-index: 1}
+            #two{width:33.33%;height: 30.3%;position: absolute;left:0%;top:0;background-color: green;z-index: 0;}
+            #three{width: 33.33%;height: 30.3%;position: relative;left:66.66%;background-color: blue;}
+            #one:hover{transforn: translate(265px,0);cursor:pointer}
+        </style>
+    </head>
+    <body>
+        <section>
+            <div id="one"></div>
+            <div id="two"></div>
+            <div id="three"></div>
+        </section>
+    </body>
+</html>

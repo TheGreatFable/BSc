@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>hello katy</title>
+        <style>
+            section{border:1px solid black;width:600px;height:800px;box-shadow: 8px 8px 8px black;margin:auto;text-align: center;}
+            input[type=color]{margin-bottom: 90px;width: 25%;}
+            input[type=submit]{width:30%;border-radius:8px;cursor:pointer;box-shadow: 5px 5px 5px black;}
+            input[type=submit]:hover{background-color: darkgrey;}
+            table{margin:auto;border-spacing: 25px;}
+            .lbl{width:25%}
+            .inp{width:50%}
+            input{width:100%;border-radius: 8px;height: 25px;}
+            input:focus{border:2px solid blue}
+            input:not([type=color]):not([type=submit]):valid{border:2px solid green}
+            input:invalid{border: 2px solid red;}
+            label{font-weight: bold;}
+            h2{font-size:1.5cm;letter-spacing: 8px;text-shadow: 5px 5px 5px black;}
+            label, h3{text-shadow: 5px 5px 5px black;}
+        </style>
+        <script>
+            function set color(){
+                var col;
+                col=document.getElementbyId("clr").value;
+                document.getElementById("section").style.backgroundcolor=col;
+            }
+        </script>
+    </head>
+    <body>
+        <section id="section">
+            <h3>choose your color:</h3><input type="color" name="color" id="clr" onchange="setcolor()"/>
+            <h2>enter your information</h2>
+            <form>
+                <table>
+                    <tr><td class="lbl"><label for="txtname">name:</label></td><td class="inp"><input type="text" name="txtname" id="txtname" title="enter your name" placeholder="enter your name" required pattern="[a-z,A-Z]{1-30}"/></td></tr>
+                    <tr><td class="lbl"><label for="txtage">age:</label></td><td class="inp"><input type="number" name="txtage" id="txtage" min=18 max=70 placeholder="enter your age"></td></tr>
+                    <tr><td class="lbl"><label for="txtmail">email:</label></td><td class="inp"><input type="email" name="txtmail" id="email" placeholder="enter your email"></td></tr>
+                    <tr><td class="lbl"><label for="txtphone">phone:</label></td><td class="inp"><input type="text" name="txtphone" id="phone" placeholder="enter your phone" title="enter your phone"></td></tr>
+                </table>
+            </form>
+        </section>
+    </body>
+</html>
