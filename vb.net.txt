@@ -1,0 +1,279 @@
+dim fullname as string
+dim firstname as string
+dim lastname as string
+dim ps as integer
+dim sep as string
+dim newname as string
+fullname=txtfull.text
+fullname=trim(fullname) '---cleans unwanted spaces
+sep=""
+if fullname=""then
+    msgbox("there is no name.")
+else  
+    ps=instr(fullname,sep)
+    firstname=mid(fullname,1,ps-1)
+    lastname=mid(fullname,ps+1,len(fullname)-ps)
+end if
+lastname=ucase(lastname)
+firstname=lcase(firstname)
+mid(firstname,1,1)=ucase(mid(firstname,1,1))
+txtfirst.text=firstname
+txtlast.text=lastname
+newname=lastname&" "&firstname
+txtnew.text=newname
+
+
+
+
+
+dim ffname as string '---D:
+dim drv as string '---D:
+dim folder as string '---myDir\project1
+dim fname as string '----tatiana
+dim fext as string '---dat
+ffname=txtffname.text
+'---drive
+pp=instr(ffname,":")
+if pp>0 then
+    drv=mid(ffname,1,pp-1)
+    else
+    drv=""
+end if
+if pp=0 then pp=1
+'---folder
+folder=""
+for i=len(ffname) to pp step-1
+if mid (ffname,i,1)="\" then
+pf=len(ffname)-i '===position of last \
+folder=mid(ffname,pp,pf+1)
+exit for
+end if
+'--filename
+pn=i+1
+fname=mid(ffname,pn,len(ffname)-pn)
+'extension
+pt=instr(fname,".")
+if pt>0 then
+fext=mid(fname,pt+1,leb(fname)-pt)
+else
+fext=""
+end if
+'--display
+txtdrive.text=drv
+txtfolder.text=folder
+txtfile.text=fname
+txtextension.text=fext
+
+
+dim token() as string '===array
+split(array(),ffname,"\")
+drv=ubound(token())
+drv=token(0)
+...
+
+
+
+
+
+
+
+
+
+'remove unwanted spaces
+oldstr="  His Name is Paul "
+newstr="His Name is Paul"
+oldstr=trim(oldstr) '--His Name is Paul
+while instr(oldstr,"  ")>0
+oldstr=replace(oldstr,"  "," ")
+end while
+
+
+
+
+
+
+dim myarray(),strline,separ as string
+dim num as integer
+strline=trim(txtline.text)
+separ=txtsepar.text
+myarray=split(strline,separ)
+num=ubound(myarray)
+msgbox(num)
+for i=0 to num
+console.writeline(myarray(i))
+next
+if separ="" then seapr=space(1)
+msgbox("done")
+
+
+
+
+
+
+
+sub Reformat(oldfile as string, newfile as string)
+fileopen(5,oldfile,openmode.input)
+fileopen(6,newfile,openmode.output)
+while not EOF(5) '---read a record
+    input(5,cliID)
+    input(5,cliname)
+    input(5,cliaddress)
+    input(5,cliphone)
+    input(5,clicat)
+    '--end of record
+    '--format id
+    cliID=trim(cliID)
+    LiD= len(cliID)
+    if LiD>6 then
+        LiD=6
+        cliID=mid(cliID,1,6)
+        else
+        cliID=...
+        cliname=newfunction cl_cliname
+        ...
+        write(6,cliID)
+        ...
+        output(...)
+        ...
+file class (5)
+file class (6)
+
+
+
+
+
+
+
+
+function onespace(a as string) as string
+dim b as string
+b=trim(a)
+while instr(b,"  ")
+b=replace(b,"  "," ")
+end while
+return b
+end function
+
+sub main()
+b=onespace(a)
+end sub
+
+
+
+sub sapceone(a as string, b as string)
+b=trim(a)
+while(instr(b,"  ")>0)
+replace (b,"  "," ")
+end while
+end sub
+...
+sta=" My Name is "
+spaceone(sta,stb)
+msgbox(stb)
+
+
+
+
+
+
+
+function numword (sta as string) as long
+dim arraysplit() as string
+dim mystring as string
+dim aa as string
+aa = sta
+aa= onespace(...)
+arraysplit(..)
+return ubound(..)
+end function
+
+sub toCapital(infilename as string, outfilename as string)
+dim sta as string
+fileopen(1,infilename, openmode.input)
+fileopen(2,outfilename, openmode.output)
+while not eof(1)
+sta=input(1)
+sta=ucase(sta)
+writeline(2,sta)
+next
+
+
+
+
+
+GCD:
+GCD(a,b)=GCD(a,a mod b)
+
+Function GCD(a as long, b as long) as long
+do while b>0
+    temp=b
+    b=a mod b
+    a=temp
+loop
+return a
+
+Function of Euler:
+
+Function Phi(a as long) as long
+dim count as long=1
+dim gd as long
+if a<3 then
+    return 1
+    exit function
+end if
+if isPrime(a) then
+    return a-1
+    exit function
+end if
+'--a>2
+for i=2 to n-1
+    gd=GCD(i,a)
+    if gd=1 then '--co-prime
+        count=count+1
+    end if
+next
+return count
+
+function isPrime(...)
+...
+
+
+
+
+
+
+public countries(6) as string={"Lebanon","France","Jordan","Negeria","England","Spain","Italy"}
+Public capitals(6) as string
+for i=0 to 6
+    capital(i)= inputbox("what is the capital of "& countries(i))
+next
+'----a parralel array of capitals is filled
+'---lets sort it by capitals
+array.sort(capitals,countries)
+'--lets print it
+for i=0 to 6
+    console.writeline("the capital of "&countries(i)&" is "&capitals(i))
+next
+
+
+
+
+
+GCD of 2 numbers:
+
+function GCD(a as long, b as long) as long
+'--based on GCD(a,b)=GCD(b,a mod b)
+dim aa as long,bb as long,cc as long
+aa=a
+bb=b 
+do while bb>0
+    cc=aa mod bb
+    bb=aa
+    aa=cc
+loop
+return bb
+
+
+
+
+
