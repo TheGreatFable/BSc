@@ -1,0 +1,24 @@
+C:\Users\Ali Yazbek\source\repos\WindowsApp5\WindowsApp5\bin\Debug\WindowsApp5.exe.config
+C:\Users\Ali Yazbek\source\repos\WindowsApp5\WindowsApp5\bin\Debug\WindowsApp5.exe
+C:\Users\Ali Yazbek\source\repos\WindowsApp5\WindowsApp5\bin\Debug\WindowsApp5.pdb
+C:\Users\Ali Yazbek\source\repos\WindowsApp5\WindowsApp5\bin\Debug\WindowsApp5.xml
+C:\Users\Ali Yazbek\source\repos\WindowsApp5\WindowsApp5\obj\Debug\WindowsApp5.vbprojAssemblyReference.cache
+C:\Users\Ali Yazbek\source\repos\WindowsApp5\WindowsApp5\obj\Debug\WindowsApp5.Form1.resources
+C:\Users\Ali Yazbek\source\repos\WindowsApp5\WindowsApp5\obj\Debug\WindowsApp5.Resources.resources
+C:\Users\Ali Yazbek\source\repos\WindowsApp5\WindowsApp5\obj\Debug\WindowsApp5.vbproj.GenerateResource.cache
+C:\Users\Ali Yazbek\source\repos\WindowsApp5\WindowsApp5\obj\Debug\WindowsApp5.vbproj.CoreCompileInputs.cache
+C:\Users\Ali Yazbek\source\repos\WindowsApp5\WindowsApp5\obj\Debug\WindowsApp5.exe
+C:\Users\Ali Yazbek\source\repos\WindowsApp5\WindowsApp5\obj\Debug\WindowsApp5.xml
+C:\Users\Ali Yazbek\source\repos\WindowsApp5\WindowsApp5\obj\Debug\WindowsApp5.pdb
+D:\F\Other#4\repos\WindowsApp5\WindowsApp5\bin\Debug\WindowsApp5.exe.config
+D:\F\Other#4\repos\WindowsApp5\WindowsApp5\bin\Debug\WindowsApp5.exe
+D:\F\Other#4\repos\WindowsApp5\WindowsApp5\bin\Debug\WindowsApp5.pdb
+D:\F\Other#4\repos\WindowsApp5\WindowsApp5\bin\Debug\WindowsApp5.xml
+D:\F\Other#4\repos\WindowsApp5\WindowsApp5\obj\Debug\WindowsApp5.vbprojAssemblyReference.cache
+D:\F\Other#4\repos\WindowsApp5\WindowsApp5\obj\Debug\WindowsApp5.Form1.resources
+D:\F\Other#4\repos\WindowsApp5\WindowsApp5\obj\Debug\WindowsApp5.Resources.resources
+D:\F\Other#4\repos\WindowsApp5\WindowsApp5\obj\Debug\WindowsApp5.vbproj.GenerateResource.cache
+D:\F\Other#4\repos\WindowsApp5\WindowsApp5\obj\Debug\WindowsApp5.vbproj.CoreCompileInputs.cache
+D:\F\Other#4\repos\WindowsApp5\WindowsApp5\obj\Debug\WindowsApp5.exe
+D:\F\Other#4\repos\WindowsApp5\WindowsApp5\obj\Debug\WindowsApp5.xml
+D:\F\Other#4\repos\WindowsApp5\WindowsApp5\obj\Debug\WindowsApp5.pdb

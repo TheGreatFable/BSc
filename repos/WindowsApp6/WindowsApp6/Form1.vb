@@ -1,0 +1,128 @@
+﻿Public Class Form1
+    Dim array_en(), array_ru(), array_ar() As Long
+    Private Sub cmdTranslate_Click(sender As Object, e As EventArgs) Handles cmdTranslate.Click
+        Dim result As String
+        result = txtNumber.Text
+        If (result < 0) Then
+            txtEnglish.Text = "Minus " & array_en(result)
+        Else
+            txtEnglish.Text = array_en(result)
+        End If
+        If (result < 0) Then
+            txtRussian.Text = "Минус " & array_ru(result)
+        Else
+            txtRussian.Text = array_ru(result)
+        End If
+        If (result < 0) Then
+            txtArabic.Text = " ناقص" & array_ar(result)
+        Else
+            txtArabic.Text = array_ar(result)
+        End If
+    End Sub
+    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        array_en(0) = "Zero"
+        array_en(1) = "One"
+        array_en(2) = "Two"
+        array_en(3) = "Three"
+        array_en(4) = "Four"
+        array_en(5) = "Five"
+        array_en(6) = "Six"
+        array_en(7) = "Seven"
+        array_en(8) = "Eight"
+        array_en(9) = "Nine"
+        array_en(10) = "Ten"
+        array_en(11) = "Eleven"
+        array_en(12) = "Twelve"
+        array_en(13) = "Thirteen"
+        array_en(14) = "Fourteen"
+        array_en(15) = "Fifteen"
+        array_en(16) = "Sixteen"
+        array_en(17) = "Seventeen"
+        array_en(18) = "Eighteen"
+        array_en(19) = "Nineteen"
+        array_en(20) = "Twenty"
+        array_en(30) = "Thirty"
+        array_en(40) = "Forty"
+        array_en(50) = "Fifty"
+        array_en(60) = "Sixty"
+        array_en(70) = "Seventy"
+        array_en(80) = "Eighty"
+        array_en(90) = "Ninety"
+        array_en(100) = "Hundred"
+        array_en(1000) = "Thousand"
+        array_en(1000000) = "Million"
+        array_en(1000000000) = "Milliard"
+        array_ru(0) = "Ноль"
+        array_ru(1) = "Один"
+        array_ru(2) = "Два"
+        array_ru(3) = "Три"
+        array_ru(4) = "Четыре"
+        array_ru(5) = "Пять"
+        array_ru(6) = "Шесть"
+        array_ru(7) = "Семь"
+        array_ru(8) = "Восемь"
+        array_ru(9) = "Девять"
+        array_ru(10) = "Десять"
+        array_ru(11) = "Одиннадцать"
+        array_ru(12) = "Двенадцать"
+        array_ru(13) = "Тринадцать"
+        array_ru(14) = "Четырнадцать"
+        array_ru(15) = "Пятнадцать"
+        array_ru(16) = "Шестнадцать"
+        array_ru(17) = "Семнадцать"
+        array_ru(18) = "Восемнадцать"
+        array_ru(19) = "Девятнадцать"
+        array_ru(20) = "Двадцать"
+        array_ru(30) = "Тридцать"
+        array_ru(40) = "Сорок"
+        array_ru(50) = "Пятьдесят"
+        array_ru(60) = "Шестьдесят"
+        array_ru(70) = "Семьдесят"
+        array_ru(80) = "Восемьдесят"
+        array_ru(90) = "Девяносто"
+        array_ru(100) = "Сто"
+        array_ru(200) = "Двести"
+        array_ru(300) = "Триста"
+        array_ru(400) = "Четыреста"
+        array_ru(500) = "Пятьсот"
+        array_ru(600) = "Шестьсот"
+        array_ru(700) = "Семьсот"
+        array_ru(800) = "Восемьсот"
+        array_ru(900) = "Девятьсот"
+        array_ru(1000) = "Тысяча"
+        array_ru(1000000) = "Миллион"
+        array_ru(1000000000) = "Миллиард"
+        array_ar(0) = "صفر"
+        array_ar(1) = "واحد"
+        array_ar(2) = "اثنان"
+        array_ar(3) = "ثلاثة"
+        array_ar(4) = "اربعة"
+        array_ar(5) = "خمسة"
+        array_ar(6) = "ستة"
+        array_ar(7) = "سبعة"
+        array_ar(8) = "ثمانية"
+        array_ar(9) = "تسعة"
+        array_ar(10) = "عشرة"
+        array_ar(11) = "احد عشر"
+        array_ar(12) = "اثنا عشر"
+        array_ar(13) = "ثلاثة عشر"
+        array_ar(14) = "اربعة عشر"
+        array_ar(15) = "خمسة عشر"
+        array_ar(16) = "ستة عشر"
+        array_ar(17) = "سبعة عشر"
+        array_ar(18) = "ثمانية عشر"
+        array_ar(19) = "تسعة عشر"
+        array_ar(20) = "عشرون"
+        array_ar(30) = "ثلاثون"
+        array_ar(40) = "اربعون"
+        array_ar(50) = "خمسون"
+        array_ar(60) = "ستون"
+        array_ar(70) = "سبعون"
+        array_ar(80) = "ثمانون"
+        array_ar(90) = "تسعون"
+        array_ar(100) = "مءة"
+        array_ar(1000) = "الف"
+        array_ar(1000000) = "مليون"
+        array_ar(1000000000) = "مليار"
+    End Sub
+End Class
