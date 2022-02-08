@@ -1,0 +1,10 @@
+C:\Users\Ali Yazbek\Desktop\CSharpPre\CSharpPre\obj\Debug\CSharpPre.csprojAssemblyReference.cache
+C:\Users\Ali Yazbek\Desktop\CSharpPre\CSharpPre\obj\Debug\CSharpPre.Form1.resources
+C:\Users\Ali Yazbek\Desktop\CSharpPre\CSharpPre\obj\Debug\CSharpPre.Properties.Resources.resources
+C:\Users\Ali Yazbek\Desktop\CSharpPre\CSharpPre\obj\Debug\CSharpPre.csproj.GenerateResource.cache
+C:\Users\Ali Yazbek\Desktop\CSharpPre\CSharpPre\obj\Debug\CSharpPre.csproj.CoreCompileInputs.cache
+C:\Users\Ali Yazbek\Desktop\CSharpPre\CSharpPre\bin\Debug\CSharpPre.exe.config
+C:\Users\Ali Yazbek\Desktop\CSharpPre\CSharpPre\bin\Debug\CSharpPre.exe
+C:\Users\Ali Yazbek\Desktop\CSharpPre\CSharpPre\bin\Debug\CSharpPre.pdb
+C:\Users\Ali Yazbek\Desktop\CSharpPre\CSharpPre\obj\Debug\CSharpPre.exe
+C:\Users\Ali Yazbek\Desktop\CSharpPre\CSharpPre\obj\Debug\CSharpPre.pdb
