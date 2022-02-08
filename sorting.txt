@@ -1,0 +1,31 @@
+public static void main(String[] args) {
+		int[] tab=new int[15];
+		int i,j,x;
+		for(i=0;i<tab.length;i++)
+			{
+			tab[i]=(int)(Math.random()*2000);
+			System.out.print("|"+tab[i]);
+			}
+		System.out.println();
+		System.out.println("After sorting:");
+		
+		//Arrays.sort(tab);
+		for(i=0;i<14;i++)
+		{
+			for(j=0;j<14;j++)
+			{
+				if(tab[j]>tab[j+1])
+				{
+					x=tab[j];
+					tab[j]=tab[j+1];
+					tab[j+1]=x;
+				}
+			}
+		}
+		for(i=0;i<tab.length;i++)
+		{
+			System.out.print("|"+tab[i]);
+		}
+		
+
+	}
