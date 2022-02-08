@@ -1,0 +1,34 @@
+C:\Users\User\source\repos\IBSS\IBSS\bin\Debug\IBSS.exe.config
+C:\Users\User\source\repos\IBSS\IBSS\bin\Debug\IBSS.exe
+C:\Users\User\source\repos\IBSS\IBSS\bin\Debug\IBSS.pdb
+C:\Users\User\source\repos\IBSS\IBSS\bin\Debug\IBSS.xml
+C:\Users\User\source\repos\IBSS\IBSS\obj\Debug\IBSS.vbprojAssemblyReference.cache
+C:\Users\User\source\repos\IBSS\IBSS\obj\Debug\IBSS.Resources.resources
+C:\Users\User\source\repos\IBSS\IBSS\obj\Debug\IBSS.selection.resources
+C:\Users\User\source\repos\IBSS\IBSS\obj\Debug\IBSS.vbproj.GenerateResource.cache
+C:\Users\User\source\repos\IBSS\IBSS\obj\Debug\IBSS.vbproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\IBSS\IBSS\obj\Debug\IBSS.exe
+C:\Users\User\source\repos\IBSS\IBSS\obj\Debug\IBSS.xml
+C:\Users\User\source\repos\IBSS\IBSS\obj\Debug\IBSS.pdb
+C:\Users\User\source\repos\IBSS\IBSS\obj\Debug\IBSS.MainMenu.resources
+C:\Users\User\source\repos\IBSS\IBSS\obj\Debug\IBSS.ClientInfo.resources
+C:\Users\User\source\repos\IBSS\IBSS\obj\Debug\IBSS.PolicyInfo.resources
+C:\Users\User\source\repos\IBSS\IBSS\obj\Debug\IBSS.clientInfo2.resources
+C:\Users\User\source\repos\IBSS\IBSS\obj\Debug\IBSS.newClient.resources
+C:\Users\Ali Yazbek\Desktop\IBSS\IBSS\bin\Debug\IBSS.exe.config
+C:\Users\Ali Yazbek\Desktop\IBSS\IBSS\bin\Debug\IBSS.exe
+C:\Users\Ali Yazbek\Desktop\IBSS\IBSS\bin\Debug\IBSS.pdb
+C:\Users\Ali Yazbek\Desktop\IBSS\IBSS\bin\Debug\IBSS.xml
+C:\Users\Ali Yazbek\Desktop\IBSS\IBSS\obj\Debug\IBSS.vbprojAssemblyReference.cache
+C:\Users\Ali Yazbek\Desktop\IBSS\IBSS\obj\Debug\IBSS.clientInfo.resources
+C:\Users\Ali Yazbek\Desktop\IBSS\IBSS\obj\Debug\IBSS.PolicyCreation.resources
+C:\Users\Ali Yazbek\Desktop\IBSS\IBSS\obj\Debug\IBSS.MainMenu.resources
+C:\Users\Ali Yazbek\Desktop\IBSS\IBSS\obj\Debug\IBSS.Resources.resources
+C:\Users\Ali Yazbek\Desktop\IBSS\IBSS\obj\Debug\IBSS.newClient.resources
+C:\Users\Ali Yazbek\Desktop\IBSS\IBSS\obj\Debug\IBSS.PolicyInfo.resources
+C:\Users\Ali Yazbek\Desktop\IBSS\IBSS\obj\Debug\IBSS.selection.resources
+C:\Users\Ali Yazbek\Desktop\IBSS\IBSS\obj\Debug\IBSS.vbproj.GenerateResource.cache
+C:\Users\Ali Yazbek\Desktop\IBSS\IBSS\obj\Debug\IBSS.vbproj.CoreCompileInputs.cache
+C:\Users\Ali Yazbek\Desktop\IBSS\IBSS\obj\Debug\IBSS.exe
+C:\Users\Ali Yazbek\Desktop\IBSS\IBSS\obj\Debug\IBSS.xml
+C:\Users\Ali Yazbek\Desktop\IBSS\IBSS\obj\Debug\IBSS.pdb

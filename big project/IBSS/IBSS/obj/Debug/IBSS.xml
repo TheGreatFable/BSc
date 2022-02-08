@@ -1,0 +1,171 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+IBSS
+</name>
+</assembly>
+<members>
+<member name="T:IBSS.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:IBSS.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:IBSS.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:IBSS.IBSSDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:IBSS.IBSSDataSet.carinsuranceDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:IBSS.IBSSDataSet.clientDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:IBSS.IBSSDataSet.companyDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:IBSS.IBSSDataSet.healthinsuranceDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:IBSS.IBSSDataSet.propertyinsuranceDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:IBSS.IBSSDataSet.carinsuranceRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:IBSS.IBSSDataSet.clientRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:IBSS.IBSSDataSet.companyRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:IBSS.IBSSDataSet.healthinsuranceRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:IBSS.IBSSDataSet.propertyinsuranceRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:IBSS.IBSSDataSet.carinsuranceRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:IBSS.IBSSDataSet.clientRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:IBSS.IBSSDataSet.companyRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:IBSS.IBSSDataSet.healthinsuranceRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:IBSS.IBSSDataSet.propertyinsuranceRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:IBSS.IBSSDataSet1TableAdapters.carinsuranceTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:IBSS.IBSSDataSet1TableAdapters.clientTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:IBSS.IBSSDataSet1TableAdapters.companyTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:IBSS.IBSSDataSet1TableAdapters.healthinsuranceTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:IBSS.IBSSDataSet1TableAdapters.propertyinsuranceTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:IBSS.IBSSDataSet1TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:IBSS.IBSSDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(IBSS.IBSSDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:IBSS.IBSSDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(IBSS.IBSSDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:IBSS.IBSSDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(IBSS.IBSSDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:IBSS.IBSSDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:IBSS.IBSSDataSet1TableAdapters.TableAdapterManager.UpdateAll(IBSS.IBSSDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:IBSS.IBSSDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:IBSS.IBSSDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>
