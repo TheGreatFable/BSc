@@ -1,0 +1,11 @@
+C:\Users\Ali Yazbek\source\repos\ConsoleApp5\ConsoleApp5\bin\Debug\ConsoleApp5.exe.config
+C:\Users\Ali Yazbek\source\repos\ConsoleApp5\ConsoleApp5\bin\Debug\ConsoleApp5.exe
+C:\Users\Ali Yazbek\source\repos\ConsoleApp5\ConsoleApp5\bin\Debug\ConsoleApp5.pdb
+C:\Users\Ali Yazbek\source\repos\ConsoleApp5\ConsoleApp5\bin\Debug\ConsoleApp5.xml
+C:\Users\Ali Yazbek\source\repos\ConsoleApp5\ConsoleApp5\obj\Debug\ConsoleApp5.vbprojAssemblyReference.cache
+C:\Users\Ali Yazbek\source\repos\ConsoleApp5\ConsoleApp5\obj\Debug\ConsoleApp5.Resources.resources
+C:\Users\Ali Yazbek\source\repos\ConsoleApp5\ConsoleApp5\obj\Debug\ConsoleApp5.vbproj.GenerateResource.cache
+C:\Users\Ali Yazbek\source\repos\ConsoleApp5\ConsoleApp5\obj\Debug\ConsoleApp5.vbproj.CoreCompileInputs.cache
+C:\Users\Ali Yazbek\source\repos\ConsoleApp5\ConsoleApp5\obj\Debug\ConsoleApp5.exe
+C:\Users\Ali Yazbek\source\repos\ConsoleApp5\ConsoleApp5\obj\Debug\ConsoleApp5.xml
+C:\Users\Ali Yazbek\source\repos\ConsoleApp5\ConsoleApp5\obj\Debug\ConsoleApp5.pdb

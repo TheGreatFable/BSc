@@ -1,0 +1,18 @@
+C:\Users\Ali Yazbek\source\repos\ConsoleApp6\ConsoleApp6\obj\Debug\ConsoleApp6.vbprojAssemblyReference.cache
+C:\Users\Ali Yazbek\source\repos\ConsoleApp6\ConsoleApp6\obj\Debug\ConsoleApp6.Resources.resources
+C:\Users\Ali Yazbek\source\repos\ConsoleApp6\ConsoleApp6\obj\Debug\ConsoleApp6.vbproj.GenerateResource.cache
+C:\Users\Ali Yazbek\source\repos\ConsoleApp6\ConsoleApp6\obj\Debug\ConsoleApp6.vbproj.CoreCompileInputs.cache
+C:\Users\Ali Yazbek\source\repos\ConsoleApp6\ConsoleApp6\bin\Debug\ConsoleApp6.exe.config
+C:\Users\Ali Yazbek\source\repos\ConsoleApp6\ConsoleApp6\bin\Debug\ConsoleApp6.exe
+C:\Users\Ali Yazbek\source\repos\ConsoleApp6\ConsoleApp6\bin\Debug\ConsoleApp6.pdb
+C:\Users\Ali Yazbek\source\repos\ConsoleApp6\ConsoleApp6\bin\Debug\ConsoleApp6.xml
+C:\Users\Ali Yazbek\source\repos\ConsoleApp6\ConsoleApp6\obj\Debug\ConsoleApp6.exe
+C:\Users\Ali Yazbek\source\repos\ConsoleApp6\ConsoleApp6\obj\Debug\ConsoleApp6.xml
+C:\Users\Ali Yazbek\source\repos\ConsoleApp6\ConsoleApp6\obj\Debug\ConsoleApp6.pdb
+D:\F\Other#4\repos\ConsoleApp6\ConsoleApp6\obj\Debug\ConsoleApp6.vbprojAssemblyReference.cache
+D:\F\Other#4\repos\ConsoleApp6\ConsoleApp6\obj\Debug\ConsoleApp6.Resources.resources
+D:\F\Other#4\repos\ConsoleApp6\ConsoleApp6\obj\Debug\ConsoleApp6.vbproj.GenerateResource.cache
+D:\F\Other#4\repos\ConsoleApp6\ConsoleApp6\obj\Debug\ConsoleApp6.vbproj.CoreCompileInputs.cache
+D:\F\Other#4\repos\ConsoleApp6\ConsoleApp6\obj\Debug\ConsoleApp6.exe
+D:\F\Other#4\repos\ConsoleApp6\ConsoleApp6\obj\Debug\ConsoleApp6.xml
+D:\F\Other#4\repos\ConsoleApp6\ConsoleApp6\obj\Debug\ConsoleApp6.pdb
