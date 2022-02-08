@@ -1,0 +1,22 @@
+c:\users\ali yazbek\source\repos\ConsoleApp2\ConsoleApp2\bin\Debug\ConsoleApp2.exe.config
+c:\users\ali yazbek\source\repos\ConsoleApp2\ConsoleApp2\bin\Debug\ConsoleApp2.exe
+c:\users\ali yazbek\source\repos\ConsoleApp2\ConsoleApp2\bin\Debug\ConsoleApp2.pdb
+c:\users\ali yazbek\source\repos\ConsoleApp2\ConsoleApp2\bin\Debug\ConsoleApp2.xml
+c:\users\ali yazbek\source\repos\ConsoleApp2\ConsoleApp2\obj\Debug\ConsoleApp2.Resources.resources
+c:\users\ali yazbek\source\repos\ConsoleApp2\ConsoleApp2\obj\Debug\ConsoleApp2.vbproj.GenerateResource.cache
+c:\users\ali yazbek\source\repos\ConsoleApp2\ConsoleApp2\obj\Debug\ConsoleApp2.vbproj.CoreCompileInputs.cache
+c:\users\ali yazbek\source\repos\ConsoleApp2\ConsoleApp2\obj\Debug\ConsoleApp2.exe
+c:\users\ali yazbek\source\repos\ConsoleApp2\ConsoleApp2\obj\Debug\ConsoleApp2.xml
+c:\users\ali yazbek\source\repos\ConsoleApp2\ConsoleApp2\obj\Debug\ConsoleApp2.pdb
+C:\Users\Ali Yazbek\source\repos\ConsoleApp2\ConsoleApp2\obj\Debug\ConsoleApp2.vbprojAssemblyReference.cache
+D:\F\Other#4\repos\ConsoleApp2\ConsoleApp2\bin\Debug\ConsoleApp2.exe.config
+D:\F\Other#4\repos\ConsoleApp2\ConsoleApp2\bin\Debug\ConsoleApp2.exe
+D:\F\Other#4\repos\ConsoleApp2\ConsoleApp2\bin\Debug\ConsoleApp2.pdb
+D:\F\Other#4\repos\ConsoleApp2\ConsoleApp2\bin\Debug\ConsoleApp2.xml
+D:\F\Other#4\repos\ConsoleApp2\ConsoleApp2\obj\Debug\ConsoleApp2.vbprojAssemblyReference.cache
+D:\F\Other#4\repos\ConsoleApp2\ConsoleApp2\obj\Debug\ConsoleApp2.Resources.resources
+D:\F\Other#4\repos\ConsoleApp2\ConsoleApp2\obj\Debug\ConsoleApp2.vbproj.GenerateResource.cache
+D:\F\Other#4\repos\ConsoleApp2\ConsoleApp2\obj\Debug\ConsoleApp2.vbproj.CoreCompileInputs.cache
+D:\F\Other#4\repos\ConsoleApp2\ConsoleApp2\obj\Debug\ConsoleApp2.exe
+D:\F\Other#4\repos\ConsoleApp2\ConsoleApp2\obj\Debug\ConsoleApp2.xml
+D:\F\Other#4\repos\ConsoleApp2\ConsoleApp2\obj\Debug\ConsoleApp2.pdb
