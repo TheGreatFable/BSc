@@ -1,0 +1,12 @@
+C:\Users\Ali Yazbek\source\repos\WindowsApp8\WindowsApp8\bin\Debug\WindowsApp8.exe.config
+C:\Users\Ali Yazbek\source\repos\WindowsApp8\WindowsApp8\bin\Debug\WindowsApp8.exe
+C:\Users\Ali Yazbek\source\repos\WindowsApp8\WindowsApp8\bin\Debug\WindowsApp8.pdb
+C:\Users\Ali Yazbek\source\repos\WindowsApp8\WindowsApp8\bin\Debug\WindowsApp8.xml
+C:\Users\Ali Yazbek\source\repos\WindowsApp8\WindowsApp8\obj\Debug\WindowsApp8.vbprojAssemblyReference.cache
+C:\Users\Ali Yazbek\source\repos\WindowsApp8\WindowsApp8\obj\Debug\WindowsApp8.Form1.resources
+C:\Users\Ali Yazbek\source\repos\WindowsApp8\WindowsApp8\obj\Debug\WindowsApp8.Resources.resources
+C:\Users\Ali Yazbek\source\repos\WindowsApp8\WindowsApp8\obj\Debug\WindowsApp8.vbproj.GenerateResource.cache
+C:\Users\Ali Yazbek\source\repos\WindowsApp8\WindowsApp8\obj\Debug\WindowsApp8.vbproj.CoreCompileInputs.cache
+C:\Users\Ali Yazbek\source\repos\WindowsApp8\WindowsApp8\obj\Debug\WindowsApp8.exe
+C:\Users\Ali Yazbek\source\repos\WindowsApp8\WindowsApp8\obj\Debug\WindowsApp8.xml
+C:\Users\Ali Yazbek\source\repos\WindowsApp8\WindowsApp8\obj\Debug\WindowsApp8.pdb
